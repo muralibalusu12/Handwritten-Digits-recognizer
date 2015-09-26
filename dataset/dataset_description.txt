@@ -1,0 +1,53 @@
+Optical Recognition of Handwritten Digits
+Obtained from: https://archive.ics.uci.edu/ml/datasets/Optical+Recognition+of+Handwritten+Digits
+
+Number of Instances
+	odtrain contains 3823 training instances
+	odtrainlabels contains the labels 0..9 for the training instances
+	odtrainlabels2 contains the labels in binary format for the neural networks e.g: for 2 - 0 0 1 0 0 0 0 0 0 0
+	
+	odtest contains 1797 testing instances
+	odtestlabels contains the labels 0..9 for the testing instances
+	odtestlabels2 contains the labels in binary format for the neural networks e.g: for 2 - 0 0 1 0 0 0 0 0 0 0
+
+Missing Attribute Values
+	None
+
+Class Distribution
+	Class:	No of examples in training set
+	0:  376
+	1:  389
+	2:  380
+	3:  389
+	4:  387
+	5:  376
+	6:  377
+	7:  387
+	8:  380
+	9:  382
+
+	Class: No of examples in testing set
+	0:  178
+	1:  182
+	2:  177
+	3:  183
+	4:  181
+	5:  182
+	6:  181
+	7:  179
+	8:  174
+	9:  180
+
+Observed Accuracy on the testing set with KNN using Euclidean distance as the metric.
+
+ k =  1   : 98.00
+ k =  2   : 97.38
+ k =  3   : 97.83
+ k =  4   : 97.61
+ k =  5   : 97.89
+ k =  6   : 97.77
+ k =  7   : 97.66
+ k =  8   : 97.66
+ k =  9   : 97.72
+ k = 10   : 97.55
+ k = 11   : 97.89
